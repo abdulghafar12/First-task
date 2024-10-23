@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int indexI,indexK;
+for(indexI=1; indexI<=5; indexI++)
+{ 
+for(indexK=1; indexK<=indexI; indexK++)
+cout<<"*";
+cout<<endl;
+}
+return 0;
+}
